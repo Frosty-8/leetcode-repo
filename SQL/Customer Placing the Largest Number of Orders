@@ -1,0 +1,2 @@
+SELECT customer_number from ORDERS Group by customer_number order by count(order_number) Desc,
+customer_number Asc Limit 1
