@@ -1,0 +1,4 @@
+SELECT DISTINCT E1.player_name, E1.score From Players E1 JOIN Matches E2 
+ON E1.player_name = E2.winner
+ORDER BY E1.score DESC
+LIMIT 3;  
